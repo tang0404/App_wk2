@@ -24,20 +24,23 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        fontSize: 15,
-        color: "#601E24",
+        fontSize: 20,
+        color: "#FFFFFF",
+        fontWeight: "600",
+        marginTop: 25,
     },
 
     artist: {
         fontSize: 13,
-        color: "#FFFFFF",
+        color: "#C4C4C4",
     },
 
     image: {
-        height: 180,
-        width: 180,
-        marginTop: 20,
-        marginBottom: 45,
+        height: 200,
+        width: 200,
+        marginTop: 10,
+        marginBottom: 50,
+        borderRadius: 12,
     },
   });
 

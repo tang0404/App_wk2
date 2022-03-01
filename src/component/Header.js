@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <View style={styles.header}>
         <Text style={styles.text}>
-          My List
+          MY PICK
         </Text>
       </View>
     );
@@ -13,7 +13,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: "#601E24",
+        backgroundColor: "#111111",
         justifyContent: "center",
         alignItems: "center",
         height: 80,
@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 20,
+        fontWeight: "700",
         color: "#FFFFFF",
     },
   });

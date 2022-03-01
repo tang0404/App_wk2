@@ -7,7 +7,10 @@ const AlbumList = () => {
     return (
         <ScrollView>
             <AlbumDetail album = {AlbumData[0]} />
-            <AlbumDetail album = {AlbumData[1]} />            
+            <AlbumDetail album = {AlbumData[1]} />
+            <AlbumDetail album = {AlbumData[2]} />
+            <AlbumDetail album = {AlbumData[3]} />
+            <AlbumDetail album = {AlbumData[4]} />            
         </ScrollView>
 
     );
